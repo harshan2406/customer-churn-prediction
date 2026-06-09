@@ -7,7 +7,7 @@ st.set_page_config(page_title="Customer Churn Prediction")
 st.title("📊 Customer Churn Prediction")
 
 # Load model
-model = joblib.load(r"C:\hars\customer-churn-prediction\models\churn_model.pkl")
+model = joblib.load("models/churn_model.pkl")
 
 st.header("Customer Details")
 
